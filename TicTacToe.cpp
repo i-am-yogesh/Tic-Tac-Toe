@@ -45,7 +45,7 @@ void structure(){
 //function to fill 'X' or 'O' at relative indexes input by user
 void algo(){
     int pos;
-    cout << "Enter postion you want to make as " << token << " : ";
+    cout << "Enter postion you want to mark as " << token << " : ";
     cin >> pos;
     
     if(pos < 1 || pos > 9) cout << "No valid postion! You lost your turn" << endl;
